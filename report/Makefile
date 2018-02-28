@@ -4,4 +4,4 @@ SRC=report.tex
 all:
 	latexmk -pdf --jobname=$(JOBNAME) report.tex
 clean:
-	latexmk -CF --jobname=$(JOBNAME)
+	latexmk -CA --jobname=$(JOBNAME)
